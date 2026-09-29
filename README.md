@@ -1,49 +1,52 @@
 # RobotMasterHello
 
-Ò»¸ö¼òµ¥µÄ C++ ¿ØÖÆÌ¨³ÌĞò£¬ÔËĞĞºóÊä³ö `Hello, RobotMaster!`¡£
+ä¸€ä¸ªç®€å•çš„ C++ æ§åˆ¶å°ç¨‹åºï¼Œè¿è¡Œåè¾“å‡º `Hello, RobotMaster!`ã€‚
 
-## »·¾³ÒªÇó
+## ç¯å¢ƒè¦æ±‚
 
-- Windows 10 »ò¸ü¸ß°æ±¾
-- CMake 3.10 »ò¸ü¸ß°æ±¾
-- ÒÑ°²×°²¢ÅäÖÃºÃµÄ C++ ±àÒëÆ÷£¬ÀıÈç Visual Studio¡¢MinGW-w64 »ò Clang
+- Windows 10 æˆ–æ›´é«˜ç‰ˆæœ¬
+- CMake 3.10 æˆ–æ›´é«˜ç‰ˆæœ¬
+- å·²å®‰è£…å¹¶é…ç½®å¥½çš„ C++ ç¼–è¯‘å™¨ï¼Œä¾‹å¦‚ Visual Studioã€MinGW-w64 æˆ– Clang
 
-## ¹¹½¨ÓëÔËĞĞ
+## æ„å»ºä¸è¿è¡Œ
 
-ÔÚÏîÄ¿¸ùÄ¿Â¼´ò¿ª PowerShell£¬Ö´ĞĞ£º
+åœ¨é¡¹ç›®æ ¹ç›®å½•æ‰“å¼€ PowerShellï¼Œæ‰§è¡Œï¼š
 
 ```powershell
 cmake -S . -B build
 cmake --build build --config Release
 ```
 
-Visual Studio µÈ¶àÅäÖÃÉú³ÉÆ÷µÄÔËĞĞÃüÁî£º
+Visual Studio ç­‰å¤šé…ç½®ç”Ÿæˆå™¨çš„è¿è¡Œå‘½ä»¤ï¼š
 
 ```powershell
 .\build\Release\RobotMasterHello.exe
 ```
 
-MinGW¡¢Ninja µÈµ¥ÅäÖÃÉú³ÉÆ÷Í¨³£Ê¹ÓÃ£º
+MinGWã€Ninja ç­‰å•é…ç½®ç”Ÿæˆå™¨é€šå¸¸ä½¿ç”¨ï¼š
 
 ```powershell
 .\build\RobotMasterHello.exe
 ```
 
-## Ô¤ÆÚÊä³ö
+## é¢„æœŸè¾“å‡º
 
 ```text
 Hello, RobotMaster!
 ```
 
-## Ä¿Â¼½á¹¹
+## è¿è¡Œæˆªå›¾
+
+![ç¨‹åºæ„å»ºä¸è¿è¡Œæˆªå›¾](aaa.png)
+
+## ç›®å½•ç»“æ„
 
 ```text
-×÷ÒµÒ»/
-©À©¤©¤ CMakeLists.txt       # CMake ¹¹½¨ÅäÖÃ
-©À©¤©¤ main.cpp             # ³ÌĞòÈë¿Ú
-©À©¤©¤ README.md            # ÏîÄ¿ËµÃ÷
-©À©¤©¤ CMakelist.txt        # ¿ÕµÄ¾ÉÎÄ¼ş£¬²»»á±» CMake ×Ô¶¯Ê¶±ğ
-©¸©¤©¤ build/               # Ö´ĞĞÅäÖÃÃüÁîºóÉú³ÉµÄ¹¹½¨Ä¿Â¼
+ä½œä¸šä¸€/
+â”œâ”€â”€ CMakeLists.txt       # CMake æ„å»ºé…ç½®
+â”œâ”€â”€ main.cpp             # ç¨‹åºå…¥å£
+â”œâ”€â”€ aaa.png              # ç¨‹åºæ„å»ºä¸è¿è¡Œæˆªå›¾
+â””â”€â”€ README.md            # é¡¹ç›®è¯´æ˜
 ```
 
-CMake Ä¬ÈÏÊ¶±ğµÄÎÄ¼şÃûÊÇ `CMakeLists.txt`£¬¹¹½¨Ê±Ê¹ÓÃ¸ÃÎÄ¼ş¡£
+CMake é»˜è®¤è¯†åˆ«çš„æ–‡ä»¶åæ˜¯ `CMakeLists.txt`ï¼Œæ„å»ºæ—¶ä½¿ç”¨è¯¥æ–‡ä»¶ã€‚
