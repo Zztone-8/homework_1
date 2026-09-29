@@ -37,7 +37,7 @@ Hello, RobotMaster!
 
 ## 运行截图
 
-![程序构建与运行截图](aaa.png)
+![程序构建与运行截图](images/aaa.png)
 
 ## 目录结构
 
